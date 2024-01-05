@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+  }
+  .fromContainer{
+    background:url(./image/silhouette-sea-stack-against-colorful-setting-sun-new-caledonia.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+.fromWrapper{
+    box-shadow: 0px 1px 2px 1px white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 3px;
+   
+}
+.fromWrapper h2{
+    color: white;
+    padding: 20px 0px;
+}
+
+.btn_d-flex p{
+  font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.btn_d-flex a{
+  font-size: 16px;
+    
+    font-weight: 600;
+    margin-left: 6px;
+   
+}
+.btn_d-flex{
+  display: flex;
+  justify-content:space-between;
+  gap: 4%;
+}
